@@ -9,8 +9,7 @@ st.set_page_config(page_title="Suivi Instantané", page_icon="💧", layout="wid
 st_autorefresh(interval=60000, key="refresh_eau")
 
 # Lien direct vers le fichier poussé sur GitHub
-PSEUDO_GITHUB = "asaylani"
-URL_CSV = f"https://raw.githubusercontent.com/{PSEUDO_GITHUB}/suivi-eau/main/donnees.csv"
+URL_CSV = "https://raw.githubusercontent.com/asaylani/BSK-On-Line/main/donnees.csv"
 
 st.title("💧 Suivi Instantané des Compteurs")
 
