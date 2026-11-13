@@ -8,9 +8,8 @@ st.set_page_config(page_title="Suivi Instantané", page_icon="💧", layout="wid
 # Rafraîchissement automatique toutes les 60 secondes (60000 ms)
 st_autorefresh(interval=60000, key="refresh_eau")
 
-# Lien direct CSV de votre Google Sheet
-SHEET_ID = "1ABBzA3qKZd3taP_NgDgVyrMw-tEb8LjWNCBQTx7nwHU"
-URL_CSV = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv"
+# Lien direct CSV publié sur le web
+URL_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRJQ7tPFcVCCU394BEMlGOdfJZ5qCrtv-zj8IDLwpfBOaum7lcmKY-VY-Da20dbR0elgCI33vVJGP5v/pub?gid=1866023781&single=true&output=csv"
 
 st.title("💧 Suivi Instantané des Compteurs")
 
